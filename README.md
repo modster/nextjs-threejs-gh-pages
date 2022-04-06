@@ -7,7 +7,7 @@ npx create-next-app --example gh-pages gh-pages-app
 
 cd gh-pages-app
 
- run deploy
+yarn run deploy
 ```
 
 This example shows the most basic idea behind Next. We have 2 pages: `pages/index.js` and `pages/about.js`. The former responds to `/` requests and the latter to `/about`. Using `next/link` you can add hyperlinks between them with universal routing capabilities.
