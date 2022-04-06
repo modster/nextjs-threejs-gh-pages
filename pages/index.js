@@ -8,4 +8,20 @@ export default function Home() {
       </Link>
     </div>
   )
-}
+}/**
+
+
+
+import * as React from 'react'
+import ReactDOM from 'react-dom'
+import './components/styles.css'
+import Stars from './components/Stars'
+import Overlay from './components/Overlay'
+
+ReactDOM.render(
+  <Canvas camera={{ position: [0, 0, 1] }}>
+    <Stars />
+  </Canvas>,
+  <Overlay />
+)
+*/
