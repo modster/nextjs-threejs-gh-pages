@@ -1,6 +1,6 @@
 # Nextjs Github Pages Template
 
-[Github Pages Demo](https://greeffer.com/nextjs-github-pages-template/)
+[Github Pages Demo](https://greeffer.com/nextjs-threejs-gh-pages/)
 
 This example shows the most basic idea behind Next. We have 2 pages: `pages/index.js` and `pages/about.js`. The former responds to `/` requests and the latter to `/about`. Using `next/link` you can add hyperlinks between them with universal routing capabilities.
 
