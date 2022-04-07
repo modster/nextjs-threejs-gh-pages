@@ -1,15 +1,30 @@
 import Link from 'next/link'
-export default function About() {
-  const homeLink = <Link href="/" as={process.env.BACKEND_URL + '/'} ref={a.Home}><a ref={}/></Link>
 
-
+export function HomeLink() {
   return (
-    <div>
-      <div>About</div>
+    <Link href="/" as={process.env.BACKEND_URL + '/'} >
+      <a>Home</a>
+    </Link>
+  )
+}
+
+export function AboutLink() {
+  return (
+    <Link href="/about" as={process.env.BACKEND_URL + '/about'}>
+      <a>About</a>
+    </Link>
+  )
+}
+
+export default function About() {
+  return (
+    <>
       <div>
-        Back to{' '}
-        <Link href="/about" as={process.env.BACKEND_URL + '/about'}><a>About</a></Link>
+        Hello World.{' '}
       </div>
-    </div>
+      <div>
+        <HomeLink>Home</HomeLink>
+      </div>
+    </>
   )
 }

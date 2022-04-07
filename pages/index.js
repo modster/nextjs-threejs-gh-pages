@@ -1,27 +1,42 @@
-import Link from 'next/link'
+import { Overlay } from './overlay'
+import { AboutLink } from './about'
+
 export default function Home() {
   return (
-    <div>
-      Hello World.{' '}
-      <Link href="/about" as={process.env.BACKEND_URL + '/about'}>
-        <a>About</a>
-      </Link>
-    </div>
+    <>
+      <Overlay />
+      <div>
+        Hello World.{' '}
+      </div>
+      <div>
+        <AboutLink>About</AboutLink>
+      </div>
+      <Overlay />
+    </>
   )
-}/**
+}
 
 
 
-import * as React from 'react'
-import ReactDOM from 'react-dom'
-import './components/styles.css'
-import Stars from './components/Stars'
-import Overlay from './components/Overlay'
+//     <Link href="/about" as={process.env.BACKEND_URL + '/about'}>
+//     <a>About</a>
+//   </Link>
+// </div>
+//   )
+// }/**
 
-ReactDOM.render(
-  <Canvas camera={{ position: [0, 0, 1] }}>
-    <Stars />
-  </Canvas>,
-  <Overlay />
-)
-*/
+
+
+// import * as React from 'react'
+// import ReactDOM from 'react-dom'
+// import './components/styles.css'
+// import Stars from './components/Stars'
+// import Overlay from './components/Overlay'
+
+// ReactDOM.render(
+//   <Canvas camera={{ position: [0, 0, 1] }}>
+//     <Stars />
+//   </Canvas>,
+//   <Overlay />
+// )
+//   * /
