@@ -1,0 +1,16 @@
+{
+    "files.eol": "\n",
+    "files.simpleDialog.enable": true,
+    "workbench.editor.defaultBinaryEditor": "default",
+    "workbench.editor.pinnedTabSizing": "compact",
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.editor.wrapTabs": true,
+    "explorer.experimental.fileNesting.enabled": true,
+    "search.collapseResults": "alwaysCollapse",
+    "vsintellicode.features.python.deepLearning": "enabled",
+    "volar.codeLens.scriptSetupTools": true,
+    "volar.codeLens.pugTools": true,
+    "yaml.format.singleQuote": true,
+    "peacock.affectStatusBar": false,
+    "color-manager.insertClassicHex": true
+}
